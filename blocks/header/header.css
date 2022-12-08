@@ -1,0 +1,10 @@
+.header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    max-height: 119px;
+    min-height: 84px;
+    margin: 0 auto;
+    border-bottom: 1px solid  #545454;
+    max-width: 880px;
+}

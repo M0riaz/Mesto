@@ -1,0 +1,11 @@
+.popup__item {
+    border: 0;
+    width: 358px;
+    border-bottom: 1px solid #bcbcc4;
+    margin-top: 57px;
+    margin-left: 36px;
+    font-size: 14px;
+    align-items: center;
+    line-height: 17px;
+    outline: none;
+}
