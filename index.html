@@ -18,9 +18,9 @@
                 <form class="popup__admin">
                     <h2 class="popup__heading">Редактировать профиль</h2>
                     <label class="popup__label popup__label_name" for="name"></label>
-                    <input class="popup__item popup__item_name" id="name" name="name" type="text">
+                    <input class="popup__item popup__item_name" id="name" name="name" type="text" value="Жак-Ив Кусто">
                     <label class="popup__label popup__label_name" for="hobby"></label>
-                    <input class="popup__item popup__item_hobby" id="hobby" name="hobby" type="text">
+                    <input class="popup__item popup__item_hobby" id="hobby" name="hobby" type="text" value="Исследователь океана">
                     <button class="popup__button">Сохранить</button>
                 </form>
             </div>
@@ -32,8 +32,10 @@
     <main class="content">
         <section class="profile">
             <img class="profile__avatar " src="images/avatar.jpg" alt="аватар пользователя">
+            <div class="profile__box">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
             <img class="profile__editor" src="images/pencil.svg" alt="иконка редактирования профиля">
+            </div>
             <p class="profile__status">Исследователь океана</p>
             <button class="profile__button"><img class="profile__button_icon" src="images/plus.svg" alt="кнопка">
             </button>
@@ -80,7 +82,6 @@
                     <h2 class="elements__title">Карачаевск</h2>
                     <img class="elements__like" src="images/heart.svg" alt="отметка лайка">
                 </div>
-
             </li>
         </ul>
     </main>

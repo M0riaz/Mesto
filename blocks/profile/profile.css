@@ -22,21 +22,22 @@
 
 
     display: grid;
-    grid-template-columns: 150px 311px auto auto;
+    /*grid-template-columns: 150px 311px auto auto;*/
+    grid-template-columns: 150px auto auto auto;
     grid-template-rows: 40px 40px 40px;
     grid-template-areas:
-        'avatar name editor btn'
-        'avatar name editor btn'
+        'avatar box box btn'
+        'avatar box box btn'
         'avatar status editor btn';
     align-items: center;
 }
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 660px) {
     .profile {
         grid-template-columns: repeat( 4, 1fr);
         grid-template-rows: 114px;
         grid-template-areas:
         '. avatar avatar .'
-        'name name name editor '
+        ' box box box box '
         'status status status status'
         ' btn btn btn btn';
         align-items: center;

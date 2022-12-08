@@ -1,0 +1,13 @@
+.profile__box {
+    display: flex;
+    /*grid-column: 2/4;*/
+    /*grid-row: 1/3;*/
+    grid-area: box;
+}
+
+@media screen and (max-width: 660px) {
+    .profile__box {
+        margin-top: 26px;
+        justify-self: center;
+    }
+}

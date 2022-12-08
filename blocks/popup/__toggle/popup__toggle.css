@@ -6,3 +6,8 @@ margin-bottom: 8px;
 .popup__toggle:hover {
     opacity: 0.6;
 }
+@media screen and (max-width: 600px) {
+    .popup__toggle {
+        margin-left: 262px
+    }
+}
