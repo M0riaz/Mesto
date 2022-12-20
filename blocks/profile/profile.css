@@ -1,28 +1,8 @@
 .profile {
-    /*!*display: flex;*!*/
-    /*!*justify-content: space-between;*!*/
-    /*display: grid;*/
-    /*grid-template-columns: 168px 299px  30px auto;*/
-    /*grid-template-rows: 100px;*/
-    /*!*padding: 0 200px ;*!*/
-    /*justify-content: center;*/
-    /*margin: 0 auto;*/
-    /* justify-content: space-between; */
-
-
-
-    /* display: grid;*/
-    /*grid-template-columns: fit-content(120px) min-content;*/
-    /*grid-template-rows: 60px 60px;*/
-    /*!* padding: 0 200px; *!*/
     margin: 0 auto;
     max-width: 880px;
-    /*justify-content: space-between;*/
     padding-top: 40px;
-
-
     display: grid;
-    /*grid-template-columns: 150px 311px auto auto;*/
     grid-template-columns: 150px auto auto auto;
     grid-template-rows: 40px 40px 40px;
     grid-template-areas:
